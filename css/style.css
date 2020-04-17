@@ -1,0 +1,41 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;       /* set height: 100% to all parent elements to cover the entire screen with the image */ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+    background: url("../img/t2.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  /* the three above background-size make sure code works with all browsers */
+    background-size: cover;  /* image cover all of the available space on screen */
+}
+
+#contact {
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/t1.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  /* the three above background-size make sure code works with all browsers */
+    background-size: cover;  /* image cover all of the available space on screen */
+}
+
+.top-nav-collapse, .page-footer {
+    background: linear-gradient(90deg, #182848 0%, #4b6cb7 100%);
+}
+  
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+}
+  
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+}
+
+

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Tuan's Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb-free.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<!--can still improve with smooth scroll-->
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!--Navbar-->
+
+    <!--"fixed-top" makes the navbar stick to the top-->
+    <!--.scrolling-navbar is a special class of MDB, launching an animation script when scrolling-->
+    <!--when scrolling the .top-nav-collapse is added to .navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+      <!--Need this to center the links-->
+      <div class="container">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand font-weight-bold" href="#">Tuan's Portfolio</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Education</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#education">School</a>
+                <a class="dropdown-item" href="#courses">Courses</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+          <!-- Links -->
+
+          <!-- Social Icon  -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tuannguyen21">
+                <i style="font-size: 200%;" class="fab fa-github"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/tuanquocnguyen/">
+                <i style="font-size: 200%;" class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:tuanquocnguyen0412@gmail.com">
+                <i style="font-size: 200%;" class="fas fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Collapsible content -->
+
+      </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Mask-->
+    <!--view is a wrapper that allows a mask that cover the background, changing its colors or more-->
+    <div id="intro" class="view">
+
+      <div class="mask rgba-black-strong">
+
+        <!--d-flex makes the display in flex mode, align-items-center vertically aligns the content, h-100 makes element stretch to 100% height-->
+        <!--container-fluid is Bootstrap Grid system, it's .container > .row > column-->
+        <!--justify-content-center aligns horizontally-->
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+          <!--row for typical grid construction-->
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-10">
+              <!-- Heading -->
+              <!-- display-4 creates huge heading-->
+              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Hi, I'm Tuan Nguyen</h2>
+
+              <!-- Divider -->
+              <hr class="hr-light">
+
+              <!-- Description -->
+              <h4 class="white-text mt-4">I'm a passionate front-end developer working toward my Computer Science degree
+              </h4>
+              
+              <a href="#about">
+                <button type="button" class="btn btn-outline-white">
+                  More about me <i class="fas fa-laptop-code"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.Mask-->
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <!--Proper margin-->
+  <main>
+
+    <!--Section: About-->
+    <section id="about" class="p-5">
+
+      <div class="container">
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center pb-4">About me</h2>
+        <!-- Section description -->
+        <p class="lead grey-text text-center w-responsive mx-auto">I'm Tuan Nguyen, a junior majoring
+          Computer Science in the University of Texas at Dallas. My cumulative GPA is 3.9/4.0 and I am expected 
+          to graduate in May 2021.
+        </p>
+        <p class="lead grey-text text-center w-responsive mx-auto">When not having schoolwork, I spend my time 
+          reading and learning new front-end technologies. My favorite front-end technologies are Angular, React and Bootstrap. 
+        </p>
+      </div>
+    </section>
+    <!--Section: About-->
+
+    <!--Section: Education-->
+    <section id="education" class="p-5" style="background-color: #f5f5f5;">
+
+      <!-- Container -->
+      <!-- .container inside each section to provide proper structure for Bootstrap grid system-->
+      <div class="container">
+
+        <div class="container pb-4">
+          <h2 class="h1-responsive font-weight-bold text-center mb-4">My education</h2>
+
+          <p class="lead grey-text text-center w-responsive mx-auto mb-2">I'm a junior at the University of Texas at Dallas,
+            with the following acedamic achievements:
+          </p>
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-lg-5 text-center p-0">
+              <img class="img-fluid"
+                src="https://labs.utdallas.edu/app/uploads/sites/29/2019/01/cropped-UTDmono_solid_flame.png"
+                style="max-width: 70%;" alt="Sample image">
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-7 my-5">
+
+              <!-- Grid row -->
+              <div class="row mt-1">
+
+                <!-- Grid column -->
+                <div class="col-1">
+                  <i class="fas fa-share fa-lg blue-text"></i>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-xl-10 col-md-11 col-10">
+                  <h5 class="font-weight-bold mb-3">Academic Excellence Scholarship</h5>
+                  <p class="grey-text">Distinction Level</p>
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+              <!-- Grid row -->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-1">
+                  <i class="fas fa-share fa-lg blue-text"></i>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-xl-10 col-md-11 col-10">
+                  <h5 class="font-weight-bold mb-3">
+                    <a href="https://www.utdallas.edu/news/students-teaching/fall-2018-deans-list/">
+                      Fall 2018's Dean List
+                    </a>
+                  </h5>
+                    <p class="grey-text">GPA of top 10% of all undergraduate students in UTD</p>
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-1">
+                  <i class="fas fa-share fa-lg blue-text"></i>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-xl-10 col-md-11 col-10">
+                  <h5 class="font-weight-bold mb-3">Cumulative GPA: 3.9/4.0</h5>
+                  <p class="grey-text mb-0"></p>
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!--Grid row-->
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!-- Grid row -->
+
+        </div>
+
+        <hr>
+
+        <div class="container" id="courses">
+
+          <p class="lead grey-text text-center w-responsive mx-auto my-5">Below are some of the major courses
+            I have taken at UTD:
+          </p>
+
+          <div class="container px-4 text-lg-left text-center">
+            <div class="row my-4">
+              <div class="col-sm-4">Software Architecture and Design</div>
+              <div class="col-sm-4">Data Structures and Algorithms</div>
+              <div class="col-sm-4">Database Systems</div>
+            </div>
+
+            <div class="row my-4">
+              <div class="col-sm-4">Computer Networks</div>
+              <div class="col-sm-4">Computer Architecture</div>
+              <div class="col-sm-4">Discrete Mathemathics for Computing</div>
+            </div>
+
+            <div class="row my-4">
+              <div class="col-sm-4">Software Architecture and Design</div>
+              <div class="col-sm-4">Data Structures and Algorithms</div>
+              <div class="col-sm-4">Database Systems</div>
+            </div>
+
+            <div class="row my-4 blue-text">
+              <div class="col-sm-4">Computer and Network Security</div>
+              <div class="col-sm-4">Digital Forensics</div>
+              <div class="col-sm-4">Automata Theory</div>
+            </div>
+
+            <br>
+
+            <p class="mx-auto blue-text text-lg-left" style="font-size: small;">
+              *Courses written in blue are those I am currently taking for this Spring 2020 semester
+            </p>
+
+
+          </div>
+        </div>
+
+
+      </div>
+      <!-- Container -->
+
+    </section>
+    <!--Section: about-->
+
+    <!--Section: Skills-->
+    <section id="skills" class="p-5">
+
+      <div class="container">
+
+        <h2 class="h1-responsive font-weight-bold text-center mb-5">Technical Skills</h2>
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4 col-sm-5">
+              <p class="font-weight-bold blue-text pl-4">Languages: </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+              <p class="pl-4 text-md-left text-sm-center">HTML, CSS, JavaScript, Java, C++, C#, SQL</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 col-sm-5">
+              <p class="font-weight-bold blue-text pl-4">Frameworks / Libraries: </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+              <p class="pl-4 text-md-left text-center">Bootstrap, Angular, React</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 col-sm-5">
+              <p class="font-weight-bold blue-text pl-4">Tools: </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+              <p class="pl-4 text-md-left text-center">Visual Studio Code, Visual Studio, Eclipse, MySQL</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 col-sm-5">
+              <p class="font-weight-bold blue-text pl-4">Operating Systems: </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+              <p class="pl-4 text-md-left text-center">Windows, Linux</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <!--Section: Skills-->
+
+
+    <!--Section: Work-->
+    <section id="work" class="p-5" style="background-color: #f5f5f5;">
+
+      <div class="container">
+
+        <h2 class="h1-responsive font-weight-bold text-center mb-5">Work Experience</h2>
+
+        <div class="row px-5">
+          <div class="col-md-4">
+            <p class="text-md-left text-center font-weight-bold blue-text">Front-end Web Developer Intern (C#, React)</p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-center blue-text">FPT Software, Hanoi, Vietnam</p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-md-right text-center blue-text">June 2019 - August 2019</p>
+          </div>
+        </div>
+
+        <div class="px-5">
+          <ul>
+            <li class="py-1">Modified and improved the UI for the company's Electronic Medical Records project</li>
+            <li class="py-1">Fixed UI bugs report by the customers and by the team testers</li>
+            <li class="py-1">Accelerated the project toward completion</li>
+            <li class="py-1">Learned C# the MVC pattern in the .NET framework </li>
+            <li class="py-1">Got familiarized with the framework React through working on the company's project</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+    <!--Section: Work-->
+
+    <!--Section: projects-->
+    <section id="projects" class="text-center p-5">
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold pb-4">My projects</h2>
+        <!-- Section description -->
+        <p class="lead grey-text w-responsive mx-auto mb-5">Below are both my personal and academic projects</p>
+
+        <!-- Grid row -->
+        <div class="row text-center mb-5">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-lg-0 mb-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="img/bootstrap_logo.jpg" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">My Portfolio (Bootstrap)</h4>
+              <p class="grey-text">The site you are reading is my portfolio, coded in HTML CSS
+                with the addition of the Bootstrap framework. The site is designed to be responsive
+                and looks organized.
+              </p>
+              <a class="btn btn-blue btn-sm" href="https://github.com/tuannguyen21/tuannguyen21.github.io"><i
+                  class="fas fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-md-0 mb-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="img/javascript_logo.jpg" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">Library Catalog (JavaScript)</h4>
+              <p class="grey-text">The project involves the creation of a database host application that
+                interfaces with a backend SQL database implementing a Library Management System. Users of
+                the system are understood to be librarians. The GUI interface is programmed with JavaScript.
+              </p>
+              <a class="btn btn-blue btn-sm" href="https://github.com/tuannguyen21/SQL_JavaScript_Library_Catalog"><i
+                  class="fas fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+
+        <!-- Grid row -->
+        <div class="row text-center">
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-4 mb-lg-0 mb-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="img/java_logo.png" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">Catalog & Shopping Management (Java)</h4>
+              <p class="grey-text">The academic project is an interface for both the adminstrators and the
+                customers. It provides admin privilege checking and catalog data modification. The program
+                utilized Array Lists, Multi-file Programming and Object-oriented Programming
+              </p>
+              <a class="btn btn-blue btn-sm" href="https://github.com/tuannguyen21/Java_Catalog_Shop"><i
+                  class="fas fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-4 mb-md-0 mb-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="img/python_logo.png" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">Application Layer Protocol (Python)</h4>
+              <p class="grey-text">The academic project, coded in Python, is an application layer protocol for three
+                network entities: controller, renderer and server to communicate with each other to provide a
+                media consumption service to users.
+              </p>
+              <a class="btn btn-blue btn-sm" href="https://github.com/tuannguyen21/Python_Network"><i
+                  class="fas fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="img/cpp_logo.jpg" class="img-fluid" alt="Sample project image"
+              style="min-width: 100%; min-height: 100%;">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">Store Interface (C++)</h4>
+              <p class="grey-text">The academic C++ Project is an store interface for both the admin and
+                the customers. The program reads and updates data from a .csv file to keep track of the products
+                in storage, while also lets the admin manually modify product details. It also allows customers
+                to interact and buy items from the store.
+              </p>
+              <a class="btn btn-blue btn-sm" href="https://github.com/tuannguyen21/Cpp_Store_Interface"><i class="fas fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Container -->
+
+    </section>
+    <!--Section: projects-->
+
+    <!--Section: call to action-->
+    <section id="contact" class="pt-5 pb-4">
+      <div class="container">
+        <div class="">
+          <div class="white-text text-center">
+            <h2 class="h2-responsive pb-4">Contact me</h2>
+
+            <p>Feel free to contact me if you are looking for a passionate developer</p>
+            <p>For business inquires and resume, you can send me an email:</p>
+            <a href="mailto:tuanquocnguyen0412@gmail.com" style="color:rgb(208, 208, 255)">
+              tuanquocnguyen0412@gmail.com
+            </a>
+
+          </div>
+          <div class="container white-text pt-5 text-center">
+            <p>Connect me via GitHub and LinkedIn:</p>
+            <ul class="list-unstyled list-inline ">
+
+              <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1" href="https://github.com/tuannguyen21"
+                style="color:rgb(208, 208, 255)">
+                  <i style="font-size: 200%;" class="fab fa-github"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/tuanquocnguyen/"
+                style="color:rgb(208, 208, 255)">
+                  <i style="font-size: 200%;" class="fab fa-linkedin-in"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1" href="mailto:tuanquocnguyen0412@gmail.com"
+                style="color:rgb(208, 208, 255)">
+                  <i style="font-size: 200%;" class="fas fa-envelope"> </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section: call to action-->
+
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer pt-4 pb-1">
+
+    <p class="text-center white-text">
+      <i class="fas fa-code"></i>
+      Made by Tuan Nguyen
+      <i class="fas fa-code"></i></p>
+
+  </footer>
+  <!--Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Carousel options -->
+  <script>
+    $('.carousel').carousel({
+      interval: 3000,
+    })
+  </script>
+</body>
+
+</html>
